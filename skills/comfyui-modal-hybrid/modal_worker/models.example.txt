@@ -1,0 +1,15 @@
+# Copy to models.txt, edit, then run:
+#   modal run comfy_modal.py::download_models --file models.txt
+# Format: <folder> <url> [filename]
+# Folders: checkpoints loras vae text_encoders clip clip_vision diffusion_models unet
+#          controlnet upscale_models embeddings ipadapter ...
+# URLs: huggingface.co/.../resolve/main/..., hf://user/repo/path, or any direct link (civitai ok).
+
+# --- SDXL (images) ---
+checkpoints https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/resolve/main/sd_xl_base_1.0.safetensors
+
+# --- Flux.1 schnell (images, fp8 all-in-one) ---
+# checkpoints https://huggingface.co/Comfy-Org/flux1-schnell/resolve/main/flux1-schnell-fp8.safetensors
+
+# --- Upscaler ---
+upscale_models https://huggingface.co/lokCX/4x-Ultrasharp/resolve/main/4x-UltraSharp.pth

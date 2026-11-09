@@ -1,0 +1,10 @@
+# Custom nodes installed on the cloud GPU (Modal image).
+# MUST match the custom nodes you use in Comfy Desktop on your laptop.
+# One per line:
+#   https://github.com/<user>/<repo>     -> git clone
+#   <registry-id>                         -> `comfy node install <id>` (from registry.comfy.org)
+# After editing, run `modal deploy comfy_modal.py` again.
+
+comfyui-videohelpersuite      # VHS: video load/combine
+comfyui-kjnodes
+# https://github.com/city96/ComfyUI-GGUF
